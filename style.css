@@ -1,0 +1,98 @@
+.mestre {
+    background-color: rgb(34, 177, 129);
+    width: 600px;
+    height: 350px;
+    padding: 50px 50px;
+    display: flex;
+    margin: 150px 600px ;
+    border-radius: 10px;
+
+}
+
+.sed{
+    background-color: rgb(216, 219, 23);
+}
+
+.suv{
+    background-color: rgb(11, 212, 61);
+
+}
+
+.lux{
+    background-color: rgb(6, 109, 28);
+}
+
+.sed , .lux , .suv {
+    border-radius:10px ;
+    padding: 0px 20px;
+    margin: 0px -5px;
+    width: 200px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+h1{
+    padding: 30px;
+}
+
+.foot {
+    text-align: center;
+}
+
+.bt {
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 50px;
+    width: 120px;
+    margin-left: 30px;
+
+}
+
+.bt:hover{
+    background-color: rgba(1, 20, 20, 0.397);
+}
+
+body {
+    background-color: aquamarine;
+
+}
+
+@media screen and (min-width:100px) and (max-width: 450px) {
+    .mestre {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -10px ;
+        margin-top: 0px;
+
+    }
+
+    .sed , .lux , .suv {
+        margin: 0px 0px;
+        margin-right: 100px;
+    }
+
+    *{margin: 0px;}
+  }
+
+
+@media screen and (max-width: 800px) {
+    .mestre {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -10px ;
+        margin-top: 0px;
+
+    }
+
+    .sed , .lux , .suv {
+        margin: 0px 0px;
+        margin-right: 100px;
+    }
+
+    *{margin: 0px;}
+    
+}
+
